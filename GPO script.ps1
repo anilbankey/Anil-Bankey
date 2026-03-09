@@ -5,7 +5,7 @@
 Import-Module GroupPolicy
 Import-Module ActiveDirectory
 
-$ReportPath = "C:\GPO_Audit_Report"
+$ReportPath = "C:\GPO_Audit_Report1"
 New-Item -ItemType Directory -Path $ReportPath -Force | Out-Null
 
 $AllGPOs = Get-GPO -All

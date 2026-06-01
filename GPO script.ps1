@@ -4,6 +4,7 @@
 
 Import-Module GroupPolicy
 Import-Module ActiveDirectory
+Created by: Anil Bankey
 
 $ReportPath = "C:\GPO_Audit_Report"
 New-Item -ItemType Directory -Path $ReportPath -Force | Out-Null
